@@ -80,7 +80,7 @@ def aws_secretsmanager_backend(**kwargs):
 
 
 aws_secretmanager_plugin = CredentialPlugin(
-    'AWS Secrets Manager lookup',
+    'AWS Secrets Manager lookup 2',
     inputs=secrets_manager_inputs,
     backend=aws_secretsmanager_backend,
 )
